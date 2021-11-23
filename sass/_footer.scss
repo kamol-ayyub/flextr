@@ -1,0 +1,178 @@
+.footer {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  -webkit-box-pack: justify;
+  align-content: space-between;
+  justify-content: space-between;
+  grid-template-rows: repeat(2, max-content);
+  height: 42.8rem;
+  padding: 5% 8% 3.7%;
+  background-color: $color-white;
+  width: 100%;
+
+  grid-column: 1 / 21;
+  grid-row: 8 / 9;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 5% 5% 3.7%;
+    grid-template-columns: 39% 55%;
+  }
+
+
+    @media only screen and (max-width: $bp-phone) {
+      display: flex;
+      flex-direction: column;
+      padding: 5% 5% 3.7%;
+      height: 52rem;
+    }
+
+  &__left {
+    display: grid;
+    grid-template-rows: 3.5rem 13rem max-content;
+    width: 100%;
+
+    @media only screen and (max-width: $bp-phone) {
+      grid-template-rows: 3.5rem 9rem max-content;
+    }
+  }
+
+  &__first {
+    font-size: 1.6rem;
+    letter-spacing: normal;
+    line-height: 1.5;
+    color: gray;
+  }
+
+  &__heading {
+    font-size: 2.7rem;
+    line-height: 1.67;
+    width: 100%;
+    height: 100%;
+    color: $color-blue-dark;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 2.3rem;
+    }
+  }
+
+  &__buttons {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    column-gap: 1.4rem;
+    cursor: pointer;
+    width: 50%;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-rows: 6rem 6rem;
+    }
+
+    
+
+    &-1,
+    &-2 {
+      text-decoration: none;
+      width: max-content;
+    }
+  }
+
+  &__right {
+    display: grid;
+    grid-template-columns: repeat(3, 29%);
+    column-gap: 2.9rem;
+
+    @media only screen and (max-width: $bp-small) {
+      column-gap: 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      column-gap: 1.5rem;
+    }
+  }
+
+  &__columns {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    row-gap: 1.2rem;
+
+    &-head {
+      color: rgb(20, 23, 29);
+      font-size: 1.2rem;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+      margin-bottom: 0.8rem;
+    }
+
+    &-link {
+      width: max-content;
+      text-decoration: none;
+      color: rgb(96, 98, 103);
+      font-size: 1.6rem;
+      line-height: 1.25;
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        font-size: 1.2rem;
+      }
+      @media only screen and (max-width: $bp-phone) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  &__bottom {
+    display: grid;
+    grid-template-columns: repeat(3, max-content) 1fr;
+    column-gap: 1.6rem;
+    grid-area: 2 / 1 / 3 / 3;
+  }
+
+  &__social {
+    width: 3.2rem;
+    object-fit: contain;
+    transition: fill 0.3s;
+    color: black;
+
+    @media only screen and (max-width: $bp-phone) {
+      width: 2.2rem;
+    }
+
+    &:hover {
+      fill: aqua;
+    }
+  }
+
+  &__bottomright {
+    justify-self: flex-end;
+    color: rgb(96, 98, 103);
+    font-weight: bold;
+    width: max-content;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+
+
+    @media only screen and (max-width: $bp-phone) {
+      font-size: 1.2rem;
+    }
+    
+  }
+}
+
+.buttons {
+
+  @media only screen and (max-width: $bp-small) {
+    width: 13rem;
+  }
+  @media only screen and (max-width: $bp-phone) {
+    width: 13rem;
+  }
+}

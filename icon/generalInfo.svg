@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="686" height="526" viewBox="0 0 686 526">
+    <defs>
+        <filter id="i7dvaym1ja" width="346.3%" height="804.7%" x="-123.2%" y="-352.3%" filterUnits="objectBoundingBox">
+            <feOffset dx="-26" dy="55" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="55.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0269239149 0 0 0 0 0.10227337 0 0 0 0 0.248980978 0 0 0 0.556107955 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g filter="url(#i7dvaym1ja)" transform="translate(-887 -495) translate(0 -2) translate(115 717) translate(992)">
+                        <rect width="246" height="86" fill="#FFF" rx="19"/>
+                        <g>
+                            <text fill="#85A5C2" font-family="Rubik-Medium, Rubik" font-size="14" font-weight="400" transform="translate(22 16)">
+                                <tspan x="0" y="18.283">Blood</tspan>
+                            </text>
+                            <text fill="#85A5C2" font-family="Rubik-Medium, Rubik" font-size="14" font-weight="400" transform="translate(22 16)">
+                                <tspan x="74" y="18.283">Height</tspan>
+                            </text>
+                            <text fill="#85A5C2" font-family="Rubik-Medium, Rubik" font-size="14" font-weight="400" transform="translate(22 16)">
+                                <tspan x="153" y="18.283">Weight</tspan>
+                            </text>
+                            <text fill="#85A5C2" font-family="Helvetica" font-size="18" transform="translate(22 16)">
+                                <tspan x="7" y="46.283">O+</tspan>
+                            </text>
+                            <text fill="#85A5C2" font-family="Helvetica" font-size="18" transform="translate(22 16)">
+                                <tspan x="68" y="46.283">186cm</tspan>
+                            </text>
+                            <text fill="#85A5C2" font-family="Helvetica" font-size="18" transform="translate(22 16)">
+                                <tspan x="154" y="46.283">90kg</tspan>
+                            </text>
+                            <path stroke="#D4E3F0" stroke-linecap="round" d="M139 0L139 54.253M54.167 0L54.167 54.253" opacity=".6" transform="translate(22 16)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

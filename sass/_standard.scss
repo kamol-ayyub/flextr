@@ -1,0 +1,170 @@
+.standard {
+  display: grid;
+  grid-template-columns: 39% 46%;
+  gap: 6.2rem 10.5rem;
+  grid-template-rows: repeat(2, max-content);
+  width: 100%;
+  height: 114.1rem;
+  // padding: 9.5rem 10rem 10rem;
+  padding-left: 7.7%;
+  padding-top: 3rem;
+  background-color: rgb(244, 247, 255);
+
+  grid-column: 1 / 21;
+  grid-row: 5 / 6;
+
+  @media only screen and (max-width: $bp-small) {
+    height: 114.1rem;
+    grid-template-columns: 77%;   
+    grid-template-rows: repeat(3, max-content); 
+    row-gap: 2rem;
+  }
+
+  @media only screen and (max-width: $bp-phone) {
+    height: 118.1rem;
+    grid-template-columns: 77%;   
+    grid-template-rows: repeat(3, max-content); 
+    row-gap: 2rem;
+  }
+
+  &__firstcol {
+    display: grid;
+    grid-template-rows: 3.1rem 11.5rem 10.2rem max-content;
+    align-self: center;
+    width: 100%;
+    height: max-content;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__port {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.1rem;
+    color: $color-blue-dark;
+    font-family: sans-serif;
+  }
+
+  &__heading {
+    width: 100%;
+    height: 100%;
+    font-size: 3.8rem;
+    line-height: 1.25;
+    color: $color-blue-dark;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    @media only screen and (max-width: $bp-large) {
+      font-size: 2.8rem;    
+    }
+  }
+
+  &__paragraph {
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: grey;
+  }
+
+  &__button {
+    font-size: 1.6rem;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 0.2rem;
+    width: max-content;
+    color: $color-blue;
+    align-items: center;
+  }
+
+  &__secondcol {
+    display: grid;
+    width: 100%;
+    height: 35rem;
+    border-radius: 1.6rem;
+    box-shadow: rgb(167, 159, 159) -2.3rem 4rem 20rem 0px;
+    background-color: rgb(245, 247, 248);
+    background-image: url(../icon/learnMore.svg);
+    background-size: cover;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      box-shadow: #ebe7e7 -2.3rem 0rem 2rem;
+    }
+    @media only screen and (max-width: $bp-phone) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      box-shadow: #ebe7e7 -2.3rem 0rem 2rem;
+    }
+  }
+
+  &__bottom { 
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30rem);
+    column-gap: 6.6%;
+    grid-column: 1 / 3;
+    padding-top: 4rem;
+    border-top: 0.1rem solid rgba(54, 72, 98, 0.07);
+
+    
+    @media only screen and (max-width: $bp-large) {
+      column-gap: 5rem;    
+      grid-template-columns: repeat(3, 25%);
+    }
+
+    
+    @media only screen and (max-width: $bp-small) {
+      grid-template-rows: repeat(3, 12rem);
+      grid-template-columns: 64%;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      grid-template-rows: repeat(3, max-content);
+      grid-template-columns: 64%;
+    }
+  }
+  &__bottomcol { 
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    row-gap: 1.2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.2rem;
+
+  
+    &-1 {
+      font-size: 2rem;
+      font-family: sans-serif;
+      font-weight: bold;
+      width: max-content;
+      color: $color-blue;
+
+      @media only screen and (max-width: $bp-medium) {
+        width: 100%;
+      }
+
+      @media only screen and (max-width: $bp-large) {
+        width: 100%;
+      }
+    }
+
+    &-2 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: grey;
+    }
+  }
+}

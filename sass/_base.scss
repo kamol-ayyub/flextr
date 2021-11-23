@@ -1,0 +1,71 @@
+//colors
+$color-primary: rgb(255, 139, 20);
+$color-secondary: rgb(232, 122, 13);
+$color-white: #fff;
+$color-blue: rgb(11, 48, 170);
+$color-blue-dark: rgb(5, 19, 67);
+$color-blue-light: rgb(219, 221, 255);
+$color-pink-light: rgb(255, 238, 221);
+//fonts
+$font-primary: sans-serif;
+$font-secondary: serif;
+
+//responsive breakpoints
+$bp-largest: 75em; //1200px
+$bp-large: 62.5em; //1000px
+$bp-medium: 50em; //800px
+$bp-small: 37.5em; //600px
+$bp-phone: 25em; //400px
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10px/16px = 62.5%
+
+  @media only screen and (max-width: $bp-largest) {
+    width: 100vw;
+    font-size: 50%;
+  }
+}
+body {
+  font-family: "Roboto" sans-serif serif;
+  font-weight: 300;
+  line-height: 1.6;
+  width: 100%;
+
+  @media only screen and (max-width: $bp-largest) {
+    width: 100vh;
+  }
+  
+}
+
+.bodycontainer {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 145rem 74.4rem 99.1rem 76rem 66.1rem 91.3rem 48.5rem 42.8rem ;
+  grid-template-columns: repeat(20, 5%);
+
+  @media only screen and (max-width: $bp-largest) {
+    grid-template-rows: 145rem 74.4rem 99.1rem 76rem 66.1rem 91.3rem 48.5rem 42.8rem ;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-rows: 110rem 75.4rem 95.1rem 75rem 70.1rem max-content 48.5rem 42.8rem ;
+  }
+
+
+  @media only screen and (max-width: $bp-phone) {
+    grid-template-rows: 85rem 90.4rem 65.1rem 76rem 118.1rem 72.3rem 60rem 52.8rem ;
+  }
+  @media only screen and (max-width: $bp-small) {
+    grid-template-rows: 89rem 114.4rem 95.1rem 106rem 114.1rem 91.3rem 50rem 42.8rem ;
+  }
+}

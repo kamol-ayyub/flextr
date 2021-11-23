@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="802" height="582" viewBox="0 0 802 582">
+    <defs>
+        <filter id="85qqxegnta" width="250.3%" height="456.9%" x="-75.1%" y="-178.4%" filterUnits="objectBoundingBox">
+            <feOffset dx="55" dy="50" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="47"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0269239149 0 0 0 0 0.10227337 0 0 0 0 0.248980978 0 0 0 0.229348776 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g filter="url(#85qqxegnta)" transform="translate(-170 -970) translate(0 -2) translate(115 717) translate(266 466)">
+                        <rect width="380" height="160" fill="#FFF" rx="19"/>
+                        <g transform="translate(54 60)">
+                            <rect width="45" height="45" fill="#EEF7FE" rx="10"/>
+                            <g fill="#3B76EF" fill-rule="nonzero">
+                                <path d="M16.701 6.315L15.69 5.303l.839-.838v-.001c.397-.4.397-1.045 0-1.444L13.98.472c-.19-.192-.451-.3-.722-.299h-.002c-.27 0-.53.107-.72.3l-.84.838L10.686.299c-.4-.399-1.046-.399-1.445 0l-.674.674c-.399.399-.399 1.045 0 1.445l2.43 2.43-6.148 6.148-2.43-2.43c-.4-.398-1.046-.398-1.445 0l-.674.674c-.399.4-.399 1.046 0 1.445l1.011 1.012-.838.838c-.398.4-.398 1.046 0 1.445l2.548 2.547c.399.399 1.045.399 1.445 0l.838-.838 1.011 1.012c.4.399 1.046.399 1.446 0l.673-.674c.399-.4.399-1.046 0-1.445l-2.43-2.43 6.15-6.148 2.43 2.43c.399.398 1.045.398 1.444 0l.674-.674c.399-.4.399-1.046 0-1.445z" transform="translate(14 14)"/>
+                            </g>
+                            <text fill="#59748A" font-family="Rubik-Regular, Rubik" font-size="14">
+                                <tspan x="1" y="66">48min</tspan>
+                            </text>
+                        </g>
+                        <g transform="translate(172 60)">
+                            <rect width="45" height="45" fill="#EEF7FE" rx="10"/>
+                            <g fill="#5FC5FF" fill-rule="nonzero">
+                                <path d="M14.58 9.038c-.557-1.171-.75-1.617-1.307-2.788l-.174-1.703c-.105-1.206-.73-2.27-1.74-2.98C10.108.68 8.787.148 7.43.042 5.516-.136 3.916.255 2.664 1.177c-2.957 2.2-3.34 6.776-1.705 9.402.105.177.244.354.383.532.765.958 1.183 2.235 1.183 3.583v1.951c0 .178.174.355.347.355h6.783c.209 0 .348-.177.348-.355v-2.128c.522.141 1.112.024 1.877-.472.139-.071.837-.604 1.023-1.063.187-.46.335-.782.37-1.527v-.841l1.46-.32c.105-.035.21-.106.244-.212.019-.057-.114-.405-.398-1.044zM6.802 7.953c-.383 0-2.748-1.206-2.748-3.193 0-.78.626-1.419 1.391-1.419.418 0 .835.178 1.079.532.07.071.174.142.278.142.104 0 .209-.035.278-.142.279-.319.661-.532 1.079-.532.765 0 1.39.639 1.39 1.42 0 1.986-2.364 3.192-2.747 3.192z" transform="translate(15 14)"/>
+                            </g>
+                            <text fill="#59748A" font-family="Helvetica" font-size="14">
+                                <tspan x="2" y="67">32min</tspan>
+                            </text>
+                        </g>
+                        <g transform="translate(285 60)">
+                            <rect width="45" height="45" fill="#EEF7FE" rx="10"/>
+                            <g fill="#A66DD4" fill-rule="nonzero">
+                                <g>
+                                    <path d="M18.96.174C17.465-.11 15.95.04 14.628.632c.161.583.246 1.188.246 1.806 0 2.158-1.016 4.16-2.809 5.6 1.916.113 3.785-.484 5.156-1.826 1.612-1.577 2.176-3.83 1.74-6.038z" transform="translate(12 16) translate(0 3)"/>
+                                    <g>
+                                        <path d="M19.482.031c-.345 1.046-.927 1.997-1.734 2.787-1.352 1.323-3.209 2.057-5.228 2.057-.09 0-.18-.003-.27-.007 1.474.9 3.21 1.26 4.935.88 2.224-.49 3.931-2.098 4.769-4.193C21.223.882 20.382.362 19.482.031zM9.454 4.875c-2.02 0-3.876-.734-5.228-2.057-.807-.79-1.39-1.74-1.735-2.787-.9.332-1.74.851-2.47 1.525.837 2.094 2.544 3.703 4.768 4.192 1.725.38 3.461.02 4.935-.88-.09.004-.18.007-.27.007z" transform="translate(12 16) translate(0 3) translate(0 3.915)"/>
+                                    </g>
+                                    <path d="M7.117 2.438c0-.616.084-1.219.243-1.8C6.035.042 4.515-.11 3.013.173c-.436 2.209.128 4.461 1.74 6.039 1.375 1.345 3.25 1.942 5.172 1.825-1.793-1.44-2.808-3.441-2.808-5.599z" transform="translate(12 16) translate(0 3)"/>
+                                </g>
+                                <path d="M8 5.5c0 2.242 1.177 4.234 3 5.5 1.823-1.266 3-3.258 3-5.5S12.823 1.266 11 0C9.177 1.266 8 3.258 8 5.5z" transform="translate(12 16)"/>
+                            </g>
+                            <text fill="#59748A" font-family="Helvetica" font-size="14">
+                                <tspan x="8" y="67">1.0h</tspan>
+                            </text>
+                        </g>
+                        <text fill="#85A5C2" font-family="Helvetica" font-size="13">
+                            <tspan x="40" y="37">Post workout session</tspan>
+                        </text>
+                        <text fill="#59748A" font-family="Rubik-Regular, Rubik" font-size="13">
+                            <tspan x="189" y="36">Excellent</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

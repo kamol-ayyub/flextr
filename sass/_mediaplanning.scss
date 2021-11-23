@@ -1,0 +1,202 @@
+.mediaplanning {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  column-gap: 8rem;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 76rem;
+  padding: 9.5% 8%;
+
+  grid-column: 1 / 21;
+  grid-row: 4 / 5;
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: 100%;
+    padding: 7.5% 6%;
+  }
+
+  @media only screen and (max-width: $bp-phone) {
+    grid-template-columns: 100%;
+    padding: 7.5% 6%;
+    height: 76rem;
+  }
+
+  &__firstcol {
+    width: 100%;
+    height: 48rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.6rem;
+    background-color: $color-blue;
+    box-shadow: rgb(230, 221, 221) 2.3rem 4rem 20rem 0px;
+
+    @media only screen and (max-width: $bp-phone) {
+      box-shadow: none;
+      height: 36rem;
+    }
+  }
+
+  &__disp {
+    width: 55rem;
+    height: 47rem;
+    position: absolute;
+    top: 5.6rem;
+    left: 5.6rem;
+
+    @media only screen and (max-width: $bp-large) {
+      top: 4rem;
+      left: 4rem;    
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      top: 3rem;
+      left: 3rem;    
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      top: 4rem;
+      left: 4rem;
+      width: 40rem;
+      height: 41rem;
+    }
+
+    &-row {
+      display: grid;
+      grid-template-rows: max-content 1fr;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+
+      @media only screen and (max-width: $bp-medium) {
+        width: 116%;   
+      }
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 0.5rem;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding: 0px 0.7rem;
+    background-image: linear-gradient(rgb(236, 235, 236), rgb(214, 213, 214));
+
+    &-element {
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      border: 0.06rem solid rgb(226, 73, 66);
+      background-color: rgb(255, 96, 87);
+    }
+
+    &-element2 {
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      border: 0.06rem solid rgb(231, 168, 34);
+      background-color: rgb(255, 193, 46);
+    }
+
+    &-element3 {
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      border: 0.06rem solid rgb(31, 176, 50);
+      background-color: rgb(40, 202, 64);
+    }
+
+    &-empty {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      background-color: $color-white;
+    }
+  }
+
+  &__secondcol {
+    display: grid;
+    grid-template-rows: 11.6rem 8rem max-content;
+    width: 100%;
+    @media only screen and (max-width: $bp-phone) {
+      display: grid;
+      margin-top: 2rem;
+      grid-template-rows: 7.6rem 8rem max-content;
+    }
+  }
+
+  &__heading {
+    padding-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+    line-height: 1.25;
+    color: $color-blue-dark;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 2.5rem;  
+    }
+    @media only screen and (max-width: $bp-small) {
+      padding-top: 5.5rem; 
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      padding-top: 1.5rem; 
+    }
+  }
+
+  &__parapraph {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: rgb(136, 126, 126);
+  }
+
+  &__hidden {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    row-gap: 1.4rem;
+    width: 100%;
+  }
+
+  &__hidcol {
+    width: 100%;
+  }
+
+  &__hidelement {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.8rem;
+    grid-column: 1 / 3;
+    -webkit-box-align: center;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+
+    &-icon {
+      width: 1.4rem;
+      height: 1.4rem;
+      object-fit: contain;
+      color: #000;
+      transition: translate all 0.3s;
+    }
+
+    &-paragraph {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      color: $color-blue-dark;
+      letter-spacing: normal;
+      font-family: sans-serif;
+      font-weight: bold;
+      width: max-content;
+      transition: translate all 0.3s;
+    }
+  }
+}
